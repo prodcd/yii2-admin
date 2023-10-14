@@ -71,7 +71,7 @@ class AuthItem extends Model
                 }],
             [['type'], 'integer'],
             [['description', 'data', 'ruleName'], 'default'],
-            [['name'], 'string', 'max' => 64],
+            [['name'], 'string', 'max' => 256],
         ];
     }
 
